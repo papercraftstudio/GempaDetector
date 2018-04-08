@@ -1,54 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="10dp">
 
     <TextView
-        android:id="@+id/magnitudeTxt"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="15dp"
+        android:id="@+id/magnitudeText"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="12.5dp"
         android:gravity="center"
-        android:text="5 sr"
-        android:textSize="22sp"
+        android:textColor="@color/textMain"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/kedalamanTxt"
+        android:id="@+id/kedalamanText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_toEndOf="@+id/radius_img"
-        android:textColor="@color/clear"
-        android:textSize="16sp"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/radius_img"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginTop="2dp"
-        android:layout_toEndOf="@id/magnitudeTxt"
-        android:contentDescription="@string/todo"
-        android:src="@drawable/radius" />
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/magnitudeText"
+        android:gravity="center|left"
+        android:textColor="@color/textMain"
+        android:textSize="12sp"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
-        android:id="@+id/wilayahTxt"
+        android:id="@+id/wilayahText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/kedalamanTxt"
-        android:layout_toEndOf="@id/magnitudeTxt"
-        android:textColor="@color/clear"
-        android:textSize="12sp" />
+        android:layout_height="20dp"
+        android:layout_below="@id/kedalamanText"
+        android:layout_toEndOf="@id/magnitudeText"
+        android:gravity="center|left"
+        android:textColor="@color/textMain"
+        android:textSize="12sp"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
-        android:id="@+id/tanggalTxt"
+        android:id="@+id/tanggalText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/wilayahTxt"
-        android:layout_toEndOf="@id/magnitudeTxt"
-        android:textColor="@color/clear"
-        android:textSize="12sp" />
+        android:layout_height="20dp"
+        android:layout_below="@id/wilayahText"
+        android:layout_toEndOf="@id/magnitudeText"
+        android:gravity="center|left"
+        android:textColor="@color/textMain"
+        android:textSize="12sp"
+        tools:ignore="RtlHardcoded" />
 
 </RelativeLayout>

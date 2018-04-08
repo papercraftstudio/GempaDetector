@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">DeteksiGempa</string>
-    <string name="title_activity_maps">DeteksiGempa</string>
-    <string name="_5_0_sr">5.0 SR</string>
-    <string name="todo">TODO</string>
+    <string name="titleApp">Deteksi Gempa</string>
+    <string name="titleActivityMaps">Deteksi Gempa</string>
+    <string name="textRadius">Radius</string>
 </resources>

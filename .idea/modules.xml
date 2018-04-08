@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/QuakerX.iml" filepath="$PROJECT_DIR$/QuakerX.iml" />
+      <module fileurl="file://C:\Users\Ricky A A P\Documents\pam\QuakerX.iml" filepath="C:\Users\Ricky A A P\Documents\pam\QuakerX.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pam.iml" filepath="$PROJECT_DIR$/pam.iml" />
     </modules>
   </component>
 </project>
